@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="13008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -21,6 +22,8 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="RegisterCalls.lvclass" Type="LVClass" URL="../Tests/RegisterCalls/RegisterCalls.lvclass"/>
+			<Item Name="Reset Behaviour.lvclass" Type="LVClass" URL="../Tests/Reset Behaviour/Reset Behaviour.lvclass"/>
+			<Item Name="Store and Return Parameters.lvclass" Type="LVClass" URL="../Tests/Store and Return Parameters/Store and Return Parameters.lvclass"/>
 		</Item>
 		<Item Name="LabSpy.lvclass" Type="LVClass" URL="../Core Classes/LabSpy/LabSpy.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
